@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Urbanist', sans-serif;
+}
+
+#textlogo{
+	font-size: x-large;
+	font-weight: bold;
+}
+
+nav {
+	width: 100%;
+	background: white;
+	padding: 15px ;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+.nav-center {
+	display: flex;
+	padding: 0rem 1rem;
+}
+
+.nav-center h4 {
+	flex: 3;
+	font-size: 1.5rem;
+}
+
+.nav-links {
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.nav-center ul li a {
+	text-decoration: none;
+}
+
+.nav-links {
+	list-style: none;
+	visibility: hidden;
+}
+
+/* Main  */
+
+main {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#btn {
+	margin: 3rem;
+	padding: 1rem 3rem;
+	border: 2px solid black;
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0);
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+#btn:hover {
+	box-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.623);
+	cursor: pointer;
+}
+
+.copy-btn {
+	margin-left: auto;
+	padding: 3px;
+	font-size: small;
+	font-weight: 500;
+	border-radius: 5px;
+	color: black;
+	border:  1px solid rgba(0, 0, 0, 0.5) ;
+	 background: rgba(0, 0, 0, 0);
+}
+
+.copy-btn:hover{
+	cursor: pointer;
+	font-weight: bold;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 5px;
+	background-color: rgba(256,256,256,.4);
+	border-radius: 5px;
+	padding: 1rem;
+	width: min(800px, 90%);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+	
+}
+
+.item{
+	width: 100%;
+	min-height: 50px;
+	padding: 1rem;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.text{
+	font-size: larger;
+	font-weight: bold;
+	color: black;
+}
+
+/* .copy-btn:not(.shown){
+	display: none;
+} */
